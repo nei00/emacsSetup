@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -12,7 +11,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (wombat)))
  '(ns-right-alternate-modifier (quote none))
- '(package-selected-packages (quote (linum-relative helm)))
+ '(package-selected-packages (quote (linum-relative)))
  '(tool-bar-mode nil)
  '(tooltip-mode nil))
 (custom-set-faces
@@ -51,9 +50,9 @@
     (setq initial-frame-alist '( (tool-bar-lines . 0)))
     (setq default-frame-alist '( (tool-bar-lines . 0)))))
 
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
+;;(add-to-list 'load-path "~/.emacs.d/evil")
+;;(require 'evil)
+;;(evil-mode 1)
 
 ;; Use `display-line-number-mode` as linum-mode's backend for smooth performance
 (require 'linum-relative)
