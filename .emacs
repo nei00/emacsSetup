@@ -11,7 +11,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (wombat)))
  '(ns-right-alternate-modifier (quote none))
- '(package-selected-packages (quote (linum-relative)))
+ '(org-agenda-files
+   (quote
+    ("~/Dropbox/Doctorado/org/triboson.org" "~/Dropbox/Personal/org/git.org")))
+ '(package-selected-packages (quote (magit linum-relative)))
  '(tool-bar-mode nil)
  '(tooltip-mode nil))
 (custom-set-faces
