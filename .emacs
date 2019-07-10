@@ -50,9 +50,9 @@
     (setq initial-frame-alist '( (tool-bar-lines . 0)))
     (setq default-frame-alist '( (tool-bar-lines . 0)))))
 
-;;(add-to-list 'load-path "~/.emacs.d/evil")
-;;(require 'evil)
-;;(evil-mode 1)
+(add-to-list 'load-path "~/.emacs.d/evil")
+(require 'evil)
+(evil-mode 1)
 
 ;; Use `display-line-number-mode` as linum-mode's backend for smooth performance
 (require 'linum-relative)
