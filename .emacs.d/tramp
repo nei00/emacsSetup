@@ -1,0 +1,29 @@
+;; -*- emacs-lisp -*- <19/07/10 18:41:03 /home/ivanro/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+(((tramp-file-name "ssh" "ivanro" nil "phenoui" nil nil nil)
+  ("uname" "Linux 3.10.0-957.21.2.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/lhome/ific/i/ivanro")
+  ("file-exists" "test -e")
+  ("case-insensitive" nil)
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-quoting-style" t)
+  ("ls-dired" t)
+  ("stat" "env QUOTING_STYLE=locale \\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 5010)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("gid-string" "teo")
+  ("uid-integer" 6132)
+  ("tmpdir" "/ssh:ivanro@phenoui:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")))

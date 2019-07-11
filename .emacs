@@ -14,7 +14,7 @@
  '(org-agenda-files
    (quote
     ("~/Dropbox/Doctorado/org/triboson.org" "~/Dropbox/Personal/org/git.org")))
- '(package-selected-packages (quote (magit linum-relative)))
+ '(package-selected-packages (quote (auctex magit linum-relative)))
  '(tool-bar-mode nil)
  '(tooltip-mode nil))
 (custom-set-faces
